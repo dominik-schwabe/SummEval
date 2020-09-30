@@ -1,0 +1,29 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+ipython = "*"
+ipdb = "*"
+ipython-autoimport = "*"
+
+[packages]
+bert-score = "*"
+en-core-web-md = {file = "https://github.com/explosion/spacy-models/releases/download/en_core_web_md-2.2.0/en_core_web_md-2.2.0.tar.gz"}
+en-core-web-sm = {file = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.0/en_core_web_sm-2.2.0.tar.gz"}
+gin-config = "*"
+nltk = "*"
+numpy = "*"
+pyrouge = {git = "https://github.com/bheinzerling/pyrouge.git"}
+pytorch-pretrained-bert = "*"
+sacrebleu = "*"
+scipy = "*"
+spacy = "==2.2.0"
+stanza = "*"
+transformers = ">=2.2.0"
+wmd = "*"
+moverscore = {git = "https://github.com/dominik-schwabe/emnlp19-moverscore.git"}
+
+[requires]
+python_version = "3.6"
